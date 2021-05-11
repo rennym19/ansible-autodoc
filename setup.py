@@ -43,14 +43,14 @@ def get_template_files():
 template_files = get_template_files()
 
 setup(
-    name="ansible-autodoc",
+    name="ansible-autodoc-fork",
     version=__version__,
     author="Andres Bott",
     author_email="contact@andresbott.com",
-    description='Generate documentation from annotated playbooks and roles using templates',
+    description='FORK - Generate documentation from annotated playbooks and roles using templates',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/AndresBott/ansible-autodoc",
+    url="https://github.com/rennym19/ansible-autodoc",
     package_dir={'': 'src'},
     packages=find_packages("src"),
     include_package_data=True,

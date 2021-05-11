@@ -14,7 +14,7 @@ Actions performed by this role
 
 {% for key , values in r.get_multi_type("action") %}
     {% if key != "_unset_" %}
-#### {{ r.capitalize(key) }}:
+#### {{ key }}:
         {% for item in values %}
 * {% if item.value %}{{ item.value }} - {% endif %}{{ item.desc }} {% if not r.is_role() %}({{ r.fprn(item.role) }}){% endif %}
 
