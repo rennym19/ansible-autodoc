@@ -4,6 +4,8 @@ import yaml
 import re
 import pprint
 
+from yaml.loader import SafeLoader
+
 from ansibleautodoc.Utils import SingleLog
 from ansibleautodoc.Config import SingleConfig
 from ansibleautodoc.FileRegistry import Registry
@@ -272,7 +274,7 @@ class Annotation:
 
                 with open(file, 'r',encoding='utf8') as yaml_file:
                     try:
-                        data = yaml.load(yaml_file, yaml.Loader)
+                        data = yaml.load(yaml_file, Loader=SafeLoader)
                         tags_found = Annotation.find_tag("tags",data)
 
                         for tag in tags_found:

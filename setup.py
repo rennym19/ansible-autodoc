@@ -72,6 +72,8 @@ setup(
     install_requires=[
         'jinja2',
         'pyyaml',
+        'setupext',
+        'wheel',
     ],
     setup_requires=['setupext'],
     scripts=[
