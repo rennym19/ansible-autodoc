@@ -2,7 +2,7 @@
 
 ## Install development repository
 1. git clone this project
-2. cd ansible-autodoc
+2. cd ansible-autodoc-fork
 3. `pip install -e ./`
 
 ## Test

@@ -28,7 +28,7 @@ class AnsibleAutodoc:
         use argparse for parsing CLI arguments
         :return: args objec
         """
-        usage = '''ansible-autodoc [project_directory] [options]'''
+        usage = '''ansible-autodoc-fork [project_directory] [options]'''
         parser = argparse.ArgumentParser(description='Generate documentation from annotated playbooks and roles using templates', usage=usage)
         # parser.add_argument("-f", "--force", help="Force online list", action="store_true")
         # parser.add_argument('-t','--type', nargs='+', help='<Required> Set flag', required=True)

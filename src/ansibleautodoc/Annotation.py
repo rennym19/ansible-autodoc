@@ -214,7 +214,7 @@ class Annotation:
                 self._file_handler.seek(current_file_position)
                 break
             # match if empty line or commented empty line
-            test_line = next_line.replace("#", "").strip()
+            test_line = next_line.replace("# ", "").strip()
             if len(test_line) == 0:
                 self._file_handler.seek(current_file_position)
                 break
@@ -226,7 +226,7 @@ class Annotation:
                 break
 
             if name == "example":
-                multiline += next_line.replace("#", "", 1)
+                multiline += next_line.replace("# ", "", 1)
             else:
                 multiline += " "+test_line.strip()
 

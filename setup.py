@@ -77,7 +77,7 @@ setup(
     ],
     setup_requires=['setupext'],
     scripts=[
-        'src/bin/ansible-autodoc',
+        'src/bin/ansible-autodoc-fork',
     ],
     cmdclass=cmd_classes,
 

@@ -7,7 +7,7 @@ import subprocess
 class install():
     bin = [
         {
-            "origin":"src/bin/ansible-autodoc",
+            "origin":"src/bin/ansible-autodoc-fork",
             "dest":"ansible-autodoc-dev"
         },
     ]

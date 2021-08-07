@@ -8,7 +8,7 @@ from ansibleautodoc.Utils import Singleton
 class Config:
     sample_config = """---
 # About Ansible autodoc: Generate documentation from annotated playbooks and roles using templates
-# https://github.com/AndresBott/ansible-autodoc
+# https://github.com/rennym19/ansible-autodoc-fork
 # filename: autodoc.conf.yaml
 
 # base directoy to scan, relative dir to configuration file 
@@ -106,8 +106,8 @@ excluded_roles_dirs: []
     ]
 
     # used in self promotion
-    autodoc_name= "Ansible-autodoc"
-    autodoc_url= "https://github.com/AndresBott/ansible-autodoc"
+    autodoc_name= "Ansible-autodoc-fork"
+    autodoc_url= "https://github.com/rennym19/ansible-autodoc-fork"
 
     # annotation search patterns
 

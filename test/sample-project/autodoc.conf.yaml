@@ -1,6 +1,6 @@
 ---
 # About Ansible autodoc: Generate documentation from annotated playbooks and roles using templates
-# https://github.com/AndresBott/ansible-autodoc
+# https://github.com/rennym19/ansible-autodoc-fork
 # filename: autodoc.conf.yaml
 
 # base directoy to scan, relative dir to configuration file

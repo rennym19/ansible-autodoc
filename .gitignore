@@ -57,3 +57,6 @@ node_tests/*
 *.iml
 tests/sample-project/generated_doc/*
 tests/sample-project/doc/*
+
+# Virtual environment
+venv/
